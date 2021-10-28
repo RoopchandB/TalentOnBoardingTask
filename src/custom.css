@@ -1,0 +1,81 @@
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+code {
+  color: #e01a76;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.fade:not(.show) {
+  opacity: 1;
+}
+
+.ui.modal {
+  position: initial;
+  display: block !important;
+  margin: 0 auto !important;
+  height: auto;
+}
+
+.MuiButton-containedSecondary {
+  background-color: #cc0000;
+}
+
+.ui.inverted.menu .item,
+.ui.inverted.menu .item > a:not(.ui),
+th {
+  color: white !important;
+  font-size: 17px !important;
+  font-weight: bold !important;
+}
+
+.ui.inverted.menu .teal.active.item,
+.ui.inverted.teal.menu {
+  margin-bottom: 40px;
+  border-radius: 0;
+}
+/* #6546ee */
+
+.ui.inverted.menu .orange.active.item,
+.ui.inverted.orange.menu {
+  background-color: #503dd5 !important;
+  margin-bottom: 40px;
+  border-radius: 0;
+}
+
+th {
+  background-color: #6546ee !important;
+}
+
+.ui.table td {
+  text-align: inherit;
+  vertical-align: middle;
+}
+
+/* #6a5adc */
+
+/* .item:link {
+  background-color: #6a5adc !important;
+}
+
+/* visited link */
+/* .item:visited {
+  background-color: #6a5adc !important;
+} */
+
+/* mouse over link */
+/* .item:hover {
+  background-color: #6a5adc !important; */
+/* } */
+
+/* selected link */
+/* .item:active {
+  background-color: #6a5adc !important;
+} */
